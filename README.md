@@ -14,6 +14,7 @@
 - "mongo" is the command-line shell that connects to specific instance of mongod.
 - "mongod" is the 'Mongo Daemon' it's basically the host process for the database. 
 
+# Compairison of MOngoDb with MySQL
 
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/78966839/175813896-0afebbf9-004d-47c8-a97d-67757641c770.png">
 
