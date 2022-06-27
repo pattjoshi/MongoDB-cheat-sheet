@@ -45,6 +45,9 @@
 
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/78966839/175993078-ef800054-8c21-4390-a1ff-81fff834de23.png">
 
+# practice question (Update)
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/78966839/176003832-2d3913a3-25c4-4f5c-ac8b-58fdfb88457a.png">
+
 # learning setup
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/78966839/175994774-7cd9dd28-4a94-416b-974f-7c987f7635fb.png">
 
@@ -54,4 +57,4 @@
 
 
 
-
+🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
