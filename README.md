@@ -48,6 +48,10 @@
 # practice question (Update)
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/78966839/176003832-2d3913a3-25c4-4f5c-ac8b-58fdfb88457a.png">
 
+# practice question (Delete the Documents)
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/78966839/176007383-70151f99-79b1-4b00-9800-1eaace6635f8.png">
+
+
 # learning setup
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/78966839/175994774-7cd9dd28-4a94-416b-974f-7c987f7635fb.png">
 
