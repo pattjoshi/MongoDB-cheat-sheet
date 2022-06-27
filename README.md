@@ -41,6 +41,9 @@
 [Difference Between JSON and BSON](https://www.educba.com/json-vs-bson/)
 ****
 
+# practice question
+
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/78966839/175988572-b031e160-c89f-4a15-a3de-a17e08628953.png">
 
 
 
