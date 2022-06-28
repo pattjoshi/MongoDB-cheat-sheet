@@ -4,7 +4,7 @@
 
  [Download MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-
+[MongoDB-cheat-sheet](https://github.com/pattjoshi/MongoDB-cheat-sheet/blob/master/MongodB_cheat_sheat.md)
 
 # What is MongoDB ? 
 - MongoDB is a document database for ease for development and scaling.
