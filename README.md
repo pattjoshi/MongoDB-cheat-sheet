@@ -58,8 +58,36 @@
 # MongoDB GUI Compass
 <img width="945" alt="image" src="https://user-images.githubusercontent.com/78966839/176168087-d111495e-0e05-4a09-ac2c-45a82b26c06b.png">
 
+# MERN Stack Developer Rodemap.
+*******
+# MongoDb
+- Introduction
+- Data Modelling
+- Create/Drop DB
+- Data Types
+- Create/Drop Collection
+- Projection
+- Insert
+- Query
+- Update
+-Delete
+- Limiting records
+- Sorting Records
+- Indexing
+- Aggregation
+- Replication
+- Sharding
+- Create Backup
+- Deployment
+- Relationships
+- Covered queries 
+- Analyzing queries
+- Atomic Operations
+- Advanced Indexing 
+- Objectld
+- Map Reduce
+- TExt Search
 
 
 
-
-🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
+##🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
