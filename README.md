@@ -58,4 +58,12 @@
 # MongoDB GUI Compass
 <img width="945" alt="image" src="https://user-images.githubusercontent.com/78966839/176168087-d111495e-0e05-4a09-ac2c-45a82b26c06b.png">
 
-##🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
+# Mongoose
+- it helps us to established a connection between node.js and mongodb.
+
+- Mongoose is an Object Data Modeling (ODM) libray for MongoDB and Node.js is manages relationships data. Provide Schema Validation, and is used to translate between "objects" in code and the representation fo those objects in MongoDB.
+
+
+
+
+# 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
