@@ -62,8 +62,47 @@
 - it helps us to established a connection between node.js and mongodb.
 
 - Mongoose is an Object Data Modeling (ODM) libray for MongoDB and Node.js is manages relationships data. Provide Schema Validation, and is used to translate between "objects" in code and the representation fo those objects in MongoDB.
+- It Provides an abstraction layer on top of MongoDB that eliminates the need to use named collaction.
+
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/78966839/180440986-1f99583e-a5b8-4250-bbe4-1c0432347a95.png">
+
+**********
+
+#  Connect NodeJS, Express to MongoDB using Mongoose
+
+# what is connect method? 
+- it's a method that mongoose has that connects to mongodb and returns a promise that resolves to a connection object that we can use to interact with the database and create models.
+
+********
+
+## connection created and create a new db called learnDb_dashboard
+```
+const mongoose = require("mongoose");
+
+mongoose
+  .connect(
+    "mongodb://localhost/learnDb_dashboard",
+    { useNewUrlParser: true },
+    { useUnifiedTopology: true }
+  )
+  .catch((err) => console.log(err))
+  .then(() => console.log("Connected to MongoDB")); // if no error, then console.log("Connected to MongoDB");
+```
+
+# explain mongose.connect
+- mongose.connect is a method that mongoose has that connects to mongodb and returns a promise that resolves to a connection object that we can use to interact with the database and create models.
+- mongose.connect takes two arguments:
+- 1. the url of the database
+- 2. an object that contains options for the connection
+- the options object can contain the following properties:
+- useUnifiedTopology: true
+- useNewUrlParser: true
+- useCreateIndex: true
+- useFindAndModify: false
 
 
 
 
-# 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
+
+
+## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
