@@ -213,9 +213,89 @@ createDocument();
 # o/p:
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/78966839/180745907-6810a0f4-b49b-4674-ac11-58782bdabdd1.png">
 
+************
+# Insert Multiple Documents using One Line in Mongoose
+```
+ // insertmany is used to insert multiple documents
+    const result = await Playlist.insertMany([
+      reactPlaylist,
+      javascriptPlaylist,
+      mongoPlaylist,
+      expressPlaylist,
+    ]);
+```
 
+# Insert Multiple doc
+```
+const mongoose = require("mongoose");
 
+mongoose
+  .connect(
+    "mongodb://localhost/learnDb_dashboard",
+    { useNewUrlParser: true },
+    { useUnifiedTopology: true }
+  )
+  .catch((err) => console.log(err))
+  .then(() => console.log("Connected to MongoDB")); // if no error, then console.log("Connected to MongoDB");
 
+// create a new schema for our data
+const playlistSchema = mongoose.Schema({
+  name: String,
+  ctype: String,
+  videos: Number,
+  author: String,
+  date: {
+    type: Date,
+    dafault: Date.now,
+  },
+});
 
+// collaction created in mongoDB
+const Playlist = mongoose.model("Playlist", playlistSchema);
+
+const createDocument = async () => {
+  try {
+    // instantiate a new document
+    const reactPlaylist = new Playlist({
+      name: "Node.js Playlist",
+      ctype: "Back End",
+      videos: 20,
+      author: "Om Prakash Pattjoshi",
+    });
+    const javascriptPlaylist = new Playlist({
+      name: "javaScript Playlist",
+      ctype: "front-End",
+      videos: 150,
+      author: "Om Prakash Pattjoshi",
+    });
+    const mongoPlaylist = new Playlist({
+      name: "MongoDB Playlist",
+      ctype: "Database",
+      videos: 10,
+      author: "Om Prakash Pattjoshi",
+    });
+    const expressPlaylist = new Playlist({
+      name: "express.js Playlist",
+      ctype: "Back End",
+      videos: 33,
+      author: "Om Prakash Pattjoshi",
+    });
+    // insertmany is used to insert multiple documents
+    const result = await Playlist.insertMany([
+      reactPlaylist,
+      javascriptPlaylist,
+      mongoPlaylist,
+      expressPlaylist,
+    ]);
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
+createDocument();
+
+```
+## Multiiple doc
+<img width="949" alt="image" src="https://user-images.githubusercontent.com/78966839/180749578-22687806-5d7a-405b-9d21-3b7489208674.png">
 
 ## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
