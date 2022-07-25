@@ -301,13 +301,14 @@ createDocument();
 # Read or Querying the Documents using Mongoose in Express
 
 ```
-
 // read all documents
 const getDocument = async () => {
   try {
-    const result = await Playlist.find({ ctype: "Back End" }).select({
-      name: 1,
-    });
+    const result = await Playlist.find({ ctype: "Back End" })
+      .select({
+        name: 1,
+      })
+      .limit(1);
     console.log(result);
   } catch (error) {
     console.log(error);
@@ -315,9 +316,11 @@ const getDocument = async () => {
 };
 
 getDocument();
+
 ```
 ## O/p:- 
-<img width="420" alt="image" src="https://user-images.githubusercontent.com/78966839/180768529-c2c2b96f-7791-42fb-ac50-4cf0aea109c6.png">
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/78966839/180768953-07dcc931-37a2-4dc1-ac25-3653c2e079e8.png">
+
 
 
 
