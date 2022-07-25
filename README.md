@@ -296,6 +296,29 @@ createDocument();
 
 ```
 ## Multiiple doc
-<img width="949" alt="image" src="https://user-images.githubusercontent.com/78966839/180749578-22687806-5d7a-405b-9d21-3b7489208674.png">
+<img width="849" alt="image" src="https://user-images.githubusercontent.com/78966839/180749578-22687806-5d7a-405b-9d21-3b7489208674.png">
+
+# Read or Querying the Documents using Mongoose in Express
+
+```
+
+// read all documents
+const getDocument = async () => {
+  try {
+    const result = await Playlist.find({ ctype: "Back End" }).select({
+      name: 1,
+    });
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+getDocument();
+```
+## O/p:- 
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/78966839/180768529-c2c2b96f-7791-42fb-ac50-4cf0aea109c6.png">
+
+
 
 ## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
