@@ -104,8 +104,7 @@ mongoose
 
 
 
-# Aag kuch Toofani kar te he !...
-Sadda Haq eathe rak
+
 
 
 ## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
