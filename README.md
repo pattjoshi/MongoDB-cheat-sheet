@@ -100,7 +100,118 @@ mongoose
 - useCreateIndex: true
 - useFindAndModify: false
 
+****************
 
+# what is schma?
+- it's a blueprint for a collection in mongodb that defines the structure of the data in the collection.
+- default value, validators, etc.
+
+```
+  // create a new schema for our data
+const playlistSchema = mongoose.Schema({
+  name: String,
+  ctype: String,
+  videos: Number,
+  author: String,
+  date: {
+    type: Date,
+    dafault: Date.now,
+  },
+});
+```
+# what is model?
+- it's a class that allows us to create documents in a collection.
+- mongoose model provided an interface to the database for creation, querying, and updating of documents.
+- class Playlist is a model that we can use to create documents in the collection. 
+
+```
+// collaction created in mongoDB
+const  Playlist = mongoose.model("Playlist", playlistSchema);
+```
+
+# what is document?
+- it's an object that represents a document in a collection.
+- it's an instance of a model.
+
+
+# what is collection?
+- it's a group of documents.
+- it's a group of instances of a model.
+
+
+```
+const createDocument = async () => {
+  try {
+    // instantiate a new document
+    const reactPlaylist = new Playlist({
+      name: "Node.js Playlist",
+      ctype: "Back End",
+      videos: 20,
+      author: "Om Prakash Pattjoshi",
+    });
+
+    // save the document to the database
+    const result = await reactPlaylist.save();
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
+createDocument();
+```
+
+## All code
+
+```
+const mongoose = require("mongoose");
+
+mongoose
+  .connect(
+    "mongodb://localhost/learnDb_dashboard",
+    { useNewUrlParser: true },
+    { useUnifiedTopology: true }
+  )
+  .catch((err) => console.log(err))
+  .then(() => console.log("Connected to MongoDB")); // if no error, then console.log("Connected to MongoDB");
+
+// create a new schema for our data
+const playlistSchema = mongoose.Schema({
+  name: String,
+  ctype: String,
+  videos: Number,
+  author: String,
+  date: {
+    type: Date,
+    dafault: Date.now,
+  },
+});
+
+// collaction created in mongoDB
+const Playlist = mongoose.model("Playlist", playlistSchema);
+
+const createDocument = async () => {
+  try {
+    // instantiate a new document
+    const reactPlaylist = new Playlist({
+      name: "Node.js Playlist",
+      ctype: "Back End",
+      videos: 20,
+      author: "Om Prakash Pattjoshi",
+    });
+
+    // save the document to the database
+    const result = await reactPlaylist.save();
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
+createDocument();
+
+
+```
+# o/p:
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/78966839/180745907-6810a0f4-b49b-4674-ac11-58782bdabdd1.png">
 
 
 
