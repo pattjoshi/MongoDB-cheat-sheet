@@ -321,6 +321,44 @@ getDocument();
 ## O/p:- 
 <img width="373" alt="image" src="https://user-images.githubusercontent.com/78966839/180768953-07dcc931-37a2-4dc1-ac25-3653c2e079e8.png">
 
+# [ MongoDB Comparison Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-comparison/)
+
+## comparison query operator
+
+```
+ $gt - greater than
+$gte - greater than or equal to
+ $lt - less than
+ $lte - less than or equal to
+ $ne - not equal to
+ $in - in
+ $nin - not in
+ $regex - regular expression
+ $exists - exists
+ $type - type
+```
+
+##  $gt - greater than
+```
+ const result = await Playlist.find({ videos: { $gt: 20 } }).select({
+      name: 1,
+    });
+```
+
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/78966839/180776662-ec847550-dd54-415d-a6e4-31acf2f5c352.png">
+
+# $in
+- $in is used to find the documents that match the criteria in the array provided in the query
+
+```
+ const result = await Playlist.find({ ctype: { $in: ["Back End"] } }).select(
+      {
+        name: 1,
+      }
+    );
+```
+<img width="377" alt="image" src="https://user-images.githubusercontent.com/78966839/180778063-84c2f4e5-36a6-4716-8f02-d39728b19c1e.png">
+
 
 
 
