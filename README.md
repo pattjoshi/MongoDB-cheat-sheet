@@ -418,8 +418,23 @@ updateDocument("62de6712022f0fa8ba036cae");
 O/p:-
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/78966839/181021032-27061ea6-ee13-417d-a384-a08cbe4c2914.png">
 
+**********
+# delete document
 
+```
 
+// delete document
+const deleteDocument = async (_id) => {
+  try {
+    const result = await Playlist.findByIdAndDelete({ _id });
+    // console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
+deleteDocument("62de6712022f0fa8ba036cae");
+
+```
 
 
 
