@@ -359,6 +359,36 @@ $gte - greater than or equal to
 ```
 <img width="377" alt="image" src="https://user-images.githubusercontent.com/78966839/180778063-84c2f4e5-36a6-4716-8f02-d39728b19c1e.png">
 
+J************
+# [MongoDB Logical Query Operators](https://www.mongodb.com/docs/v4.2/reference/operator/query-logical/)
+
+## type of logical operater
+- $and :- Both true then true
+- $or :- One of true then true
+- $nor
+- $not
+
+```
+ $and: [{ ctype: "Back End" }, { author: "Om Prakash Pattjoshi" }],
+```
+<img width="353" alt="image" src="https://user-images.githubusercontent.com/78966839/180923031-c7b8cfb9-66e1-4405-81f9-a447eea1f65a.png">
+
+*******
+#  Sorting and Count Query Methods 
+
+- count documents is use for counting the number of documents in a collection
+```
+.countDocuments();
+```
+
+- sort method 1 :-accending
+- -1 :- decending
+
+```
+ .sort({ name: 1 });
+```
+
+
 
 
 
