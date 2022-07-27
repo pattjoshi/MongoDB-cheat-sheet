@@ -435,9 +435,20 @@ const deleteDocument = async (_id) => {
 deleteDocument("62de6712022f0fa8ba036cae");
 
 ```
-[Mongoose Built-In Validation](https://mongoosejs.com/docs/validation.html)
+# [Mongoose Built-In Validation](https://mongoosejs.com/docs/validation.html)
 
+# [Create Your Own Custom Validation using MongoDB] (https://mongoosejs.com/docs/validation.html#custom-error-messages)
 
+```
+  videos: {
+    type: Number,
+    validate(value) {
+      if (value < 0) {
+        throw new Error("Videos must be greater than 0");
+      }
+    },
+  },
+```
 
 
 
