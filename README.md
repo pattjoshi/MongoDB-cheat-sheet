@@ -437,7 +437,7 @@ deleteDocument("62de6712022f0fa8ba036cae");
 ```
 # [Mongoose Built-In Validation](https://mongoosejs.com/docs/validation.html)
 
-# [Create Your Own Custom Validation using MongoDB] (https://mongoosejs.com/docs/validation.html#custom-error-messages)
+# [Create Your Own Custom Validation using MongoDB](https://mongoosejs.com/docs/validation.html#custom-error-messages)
 
 ```
   videos: {
@@ -449,7 +449,14 @@ deleteDocument("62de6712022f0fa8ba036cae");
     },
   },
 ```
+*****
 
+# [Using NPM Validator Package for Validation](https://www.npmjs.com/package/validator)
+
+```
+npm i validator
+```
+- adding in schema
 
 
 
