@@ -467,8 +467,45 @@ npm i validator
 - It Presents you with a friendly "GUI" for constructing requests and reading resonses. It Works on the back-end, and makes sare that each API is wirking as intended.
 
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/78966839/181266731-f97b2bb5-ecb2-4e99-975d-aa9aa64af4e2.png">
+********
+## Postmas GUI:-
 
-<img width="954" alt="image" src="https://user-images.githubusercontent.com/78966839/181274885-7583a121-5d35-4a6d-ba68-3f352f321a42.png">
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/78966839/181274885-7583a121-5d35-4a6d-ba68-3f352f321a42.png">
+
+*********
+## REST Api:-
+- Representational State Transfer Application Programming Interface
+- It is a "software" that allows two applications to cmmunicate with each other over the internet and through various devices.
+
+- Ever time you access on app like facebook or check the weather on our smartphone, on API is used.
+
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/78966839/181291364-447865e1-c6a8-4531-9cc5-38e78ba960cb.png">
+
+- A RESTful API is an architectural style for an application program  interface (API) that uses HTTP requests to access and usr data. 
+
+- REST is nota a programming language.
+
+## HTTP Mehod:-
+<img width="425" alt="image" src="https://user-images.githubusercontent.com/78966839/181294114-5e5fcaa0-994f-4a74-a541-64e76810e0ba.png">
+
+## CRUD :-
+
+- CREATE :- POST
+- READ :- GET
+- UPDATE :- PUT  , PATCH
+- DELETE :- DELETE
+*******
+- PUT :- compit change
+- PATCH :- specific path cahnge
+**************
+GET /api/users
+***********
+
+
+
+
+
+
 
 
 
