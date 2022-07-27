@@ -459,5 +459,15 @@ npm i validator
 - adding in schema
 
 
+# [POSTMAN](https://www.postman.com/)
+
+- Postman is an interactive and automatic tool for varifying the APIs of your project.
+- Postman is a Google Chrome app for interactin with HTTP APIs.
+
+- It Presents you with a friendly "GUI" for constructing requests and reading resonses. It Works on the back-end, and makes sare that each API is wirking as intended.
+
+<img width="435" alt="image" src="https://user-images.githubusercontent.com/78966839/181266731-f97b2bb5-ecb2-4e99-975d-aa9aa64af4e2.png">
+
+
 
 ## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
