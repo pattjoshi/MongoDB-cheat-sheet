@@ -468,6 +468,8 @@ npm i validator
 
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/78966839/181266731-f97b2bb5-ecb2-4e99-975d-aa9aa64af4e2.png">
 
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/78966839/181274885-7583a121-5d35-4a6d-ba68-3f352f321a42.png">
+
 
 
 ## 🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
