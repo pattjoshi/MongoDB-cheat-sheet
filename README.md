@@ -1,4 +1,10 @@
-Project doing
+
+# [MERN QUS](https://spandanjoshi.notion.site/spandanjoshi/cedae34f553b4f3491f11aad442dbb0e?v=2eb63ccf8bc941afa40fcebd724b8ba5&p=c911a56bd2ea432b9a7339c1a4e85d42&pm=s)
+
+# [NAMASTAY JS](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html)
+
+
+
 # MongoDB-cheat-sheet
 
 ## In this Section, You will see a comprehensive list of all the mongodb commands you will ever need as a mongoDb beginner.This list covers almost all the most used commands in MongoDB.
