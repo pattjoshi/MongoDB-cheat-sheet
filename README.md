@@ -18,7 +18,7 @@
 
 # Difference between mongo and mongod ?
 - "mongo" is the command-line shell that connects to specific instance of mongod.
-- "mongod" is the 'Mongo Daemon' it's basically the host process for the database. 
+- "mongod" is the 'Mongo Daemon' it's basically the **host process** for the database. 
 
 # Compairison of MOngoDb with MySQL
 
@@ -30,7 +30,7 @@
 ## SQL :-
 - RDBMS IS a relational database management system and works on relational database.
 - hear we create data base.
-- it stores data n form of entity as tables.
+- it stores data n form of entity as **tables**.
 - it use SQL to query database.(My sql,PostgreSQL )
 
 *******************
@@ -38,7 +38,7 @@
 - it's non-relational, document-oriented data management system and woeks on document-based database.
 
 - hear we create data base.
-- MongoDb stores data in form of documents.
+- MongoDb stores data in form of **documents**.
 - MongoDB uses [BSON](https://www.mongodb.com/json-and-bson)    to query database.
 
 <img width="424" alt="image" src="https://user-images.githubusercontent.com/78966839/175946142-bc2a3d30-291b-4088-9a21-8f4dacffa570.png">
@@ -65,7 +65,7 @@
 <img width="945" alt="image" src="https://user-images.githubusercontent.com/78966839/176168087-d111495e-0e05-4a09-ac2c-45a82b26c06b.png">
 
 # Mongoose
-- it helps us to established a connection between node.js and mongodb.
+- it helps us to established a connection **between node.js and mongodb**.
 
 - Mongoose is an Object Data Modeling (ODM) libray for MongoDB and Node.js is manages relationships data. Provide Schema Validation, and is used to translate between "objects" in code and the representation fo those objects in MongoDB.
 - It Provides an abstraction layer on top of MongoDB that eliminates the need to use named collaction.
